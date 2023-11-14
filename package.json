@@ -1,0 +1,27 @@
+{
+  "name": "@ulu/markdown-output-utils",
+  "version": "0.0.1",
+  "description": "Markdown output utilities (templates, etc)",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/markdown-output-utils.git"
+  },
+  "keywords": [
+    "markdown",
+    "output",
+    "print",
+    "templates"
+  ],
+  "author": "Joseph Scherben <jscherbe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/vitepress-plugin-sassdoc/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/vitepress-plugin-sassdoc#readme"
+}
