@@ -4,7 +4,12 @@
  * @returns {String}
  */
 export function titleCase(string) {
-  return string.replace(/\w\S*/g, capitolize)
+  return string.replace(/\w\S*/g, string => {
+    // Only capitolize strings that aren't all uppercase
+    return string.trim().match(/^[A-Z]+$/) ? 
+      string : 
+      capitolize(string);
+  });
 }
 /**
  * Capitolize a string

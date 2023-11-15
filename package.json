@@ -1,6 +1,6 @@
 {
   "name": "@ulu/markdown-output-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Markdown output utilities (templates, etc)",
   "main": "index.js",
   "type": "module",
