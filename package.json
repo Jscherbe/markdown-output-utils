@@ -4,10 +4,6 @@
   "description": "Markdown output utilities (templates, etc)",
   "main": "index.js",
   "type": "module",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jscherbe/markdown-output-utils.git"
