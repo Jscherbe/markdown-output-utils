@@ -78,7 +78,7 @@ export function table(array, options) {
   const opts = Object.assign({}, {
     keys: null,
     formatHeader: titleCase,
-    formatCell: (key, data) => data.toString().trim()
+    formatCell: (key, data) => data?.toString()
   }, options);
   const joinRow = cols => `|${ cols.join("|") }|`;
   const keys = opts.keys || propertyTableKeys(array);
