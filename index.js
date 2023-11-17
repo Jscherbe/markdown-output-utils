@@ -61,11 +61,12 @@ export function titledList(items) {
 }
 /**
  * Output markdown link
- * @param {Object} Config Config object should contain (path, title) 
+ * @param {String} text Link text
+ * @param {String} src Link URL
  * @returns {String} Markdown
  */
-export function link({ path, title }) {
-  return`[${ title }](${ path })`;
+export function link(title, src) {
+  return`[${ title }](${ src })`;
 }
 /**
  * Output a table from array of objects
